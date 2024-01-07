@@ -1,9 +1,9 @@
-# Tic Tac Toe
+# Tic Tac Toe 🎰
 
 A simple implementation of the classic Tic Tac Toe game using HTML, CSS, and JavaScript.
 
 ## Demonstration
-![Tic Tac Toe Demo](TicTacToe%20Demostration.png)
+![Tic Tac Toe Demo](TTTStartMenu.png)
 
 ## Features
 
@@ -12,7 +12,7 @@ A simple implementation of the classic Tic Tac Toe game using HTML, CSS, and Jav
 - Winning condition checks for rows, columns, and diagonals.
 - Prevents invalid moves (e.g., placing a mark in an already occupied cell).
 
-![Tic Tac Toe](TicTacToe%20XWon.png)
+![Tic Tac Toe](TTTGame.png)
 
 ## How to Play
 
@@ -26,6 +26,6 @@ A simple implementation of the classic Tic Tac Toe game using HTML, CSS, and Jav
 
 I'm working on improving the game with the following features:
 
-- Implementing a choice of name for the players on a starting menu
+- Implementing a choice of name for the players on a starting menu ✔️
 - Adding a counter to verify how many times each play has won
 - Add music and sound effects to make the experience more interactive

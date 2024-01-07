@@ -9,7 +9,19 @@
 <body>
     <section>
         <h1 class="game--title">Tic Tac Toe</h1>
-        <div class="game--container">
+
+        <div id="start-menu">
+            <div><p></p><label for="playerX">Player 1 Name:</label>
+            <input type="text" id="playerX" placeholder="Enter name for Player X"></p>
+</div>
+<div>
+            <p></p><label for="playerO">Player 2 Name:</label>
+            <input type="text" id="playerO" placeholder="Enter name for Player O"></p>
+</div>
+            <button class="start-game-button">Start Game</button>
+        </div>
+
+        <div class="game--container" style="display: none;">
             <div data-cell-index="0" class="cell"></div>
             <div data-cell-index="1" class="cell"></div>
             <div data-cell-index="2" class="cell"></div>
@@ -20,8 +32,9 @@
             <div data-cell-index="7" class="cell"></div>
             <div data-cell-index="8" class="cell"></div>
         </div>
+
         <h3 class="game--status"></h3>
-        <button class="game--restart">Restart Game</button>
+        <button class="game--restart" style="display: none;">Restart Game</button>
     </section>
     <script src="script.js"></script>
 </body>
