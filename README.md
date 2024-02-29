@@ -27,5 +27,6 @@ A simple implementation of the classic Tic Tac Toe game using HTML, CSS, and Jav
 I'm working on improving the game with the following features:
 
 - Implementing a choice of name for the players on a starting menu ✔️
+- Add background music ✔️ 
 - Adding a counter to verify how many times each player has won
 - Add music and sound effects to make the experience more interactive
