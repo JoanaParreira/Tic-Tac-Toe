@@ -3,6 +3,7 @@ const startMenu = document.getElementById('start-menu');
 const gameContainer = document.querySelector('.game--container');
 const restartButton = document.querySelector('.game--restart');
 const startButton = document.querySelector('.start-game-button');
+const backgroundMusic = document.getElementById('backgroundMusic');
 
 let gameActive = false;
 let currentPlayer = "X";
@@ -22,6 +23,8 @@ startButton.addEventListener('click', () => {
     restartButton.style.display = 'block';
     gameActive = true;
     statusDisplay.innerHTML = currentPlayerTurn();
+
+    backgroundMusic.play();
 });
 
 document.querySelectorAll('.cell').forEach(cell => cell.addEventListener('click', handleCellClick));
